@@ -5,6 +5,10 @@
 | סקיל | מה הוא עושה | הפעלה |
 |------|-------------|-------|
 | `kitzur` | תשובות קצרות וחדות בעברית (פירוט למטה) | "מצב קצר" |
+| `ponytail-he` | מפתח בכיר עצלן: השינוי הקטן ביותר שפותר את הבעיה (עיבוד של ponytail) | "ponytail", "אל תסבך" |
+| `verify-before-done` | אסור להגיד "זה עובד" בלי להריץ ולראות הוכחה (עיבוד של superpowers) | "תוודא", לפני commit |
+| `brainstorm-he` | שואל ומאשר עיצוב לפני שבונים (עיבוד מקוצר של superpowers) | "בוא נבנה", "יש לי רעיון" |
+| `karpathy-he` | ארבעה עקרונות נגד טעויות נפוצות בקוד (ניסוח מקורי) | "אל תיגע בשאר הקוד" |
 | `git-guardrails` | חוסם ל-Claude פקודות git הרסניות (push, reset --hard, clean -f ועוד). 31 בדיקות עוברות | "תגן על ה-git שלי" |
 | `claude-md-hebrew-starter` | ראיון קצר שבונה `CLAUDE.md` בעברית על העסק שלך | "תבנה לי CLAUDE.md" |
 | `explain-like-five` | סיכום בארבע שורות פשוטות: מה עשיתי / תקלה / תיקון / בעיה | "תסביר לי פשוט" |
@@ -54,4 +58,4 @@ node install.js
 
 ## קרדיט ורישיון
 
-מבוסס על [Caveman](https://github.com/JuliusBrussee/caveman) מאת Julius Brussee, רישיון Apache-2.0 (ראה `LICENSE`, `NOTICE`, `LICENSE-MIT`). הקוד שונה: שמות, טקסטים וטריגרים תורגמו לעברית ונוספו זיהויי עברית ל-hook. הפרויקט הזה אינו קשור ל-Caveman ואינו מאושר על ידי היוצר; "Caveman" הוא סימן מסחרי של Julius Brussee.
+מבוסס על [Caveman](https://github.com/JuliusBrussee/caveman) מאת Julius Brussee, רישיון Apache-2.0 (ראה `LICENSE`, `NOTICE`, `LICENSE-MIT`, ו-`THIRD_PARTY_NOTICES.md` לסקילים שעובדו מ-ponytail ומ-superpowers, שניהם MIT). הקוד שונה: שמות, טקסטים וטריגרים תורגמו לעברית ונוספו זיהויי עברית ל-hook. הפרויקט הזה אינו קשור ל-Caveman ואינו מאושר על ידי היוצר; "Caveman" הוא סימן מסחרי של Julius Brussee.
