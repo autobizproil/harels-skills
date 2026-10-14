@@ -2,6 +2,13 @@
 
 הסקילים של הראל ל-Claude Code.
 
+| סקיל | מה הוא עושה | הפעלה |
+|------|-------------|-------|
+| `kitzur` | תשובות קצרות וחדות בעברית (פירוט למטה) | "מצב קצר" |
+| `git-guardrails` | חוסם ל-Claude פקודות git הרסניות (push, reset --hard, clean -f ועוד). 31 בדיקות עוברות | "תגן על ה-git שלי" |
+| `claude-md-hebrew-starter` | ראיון קצר שבונה `CLAUDE.md` בעברית על העסק שלך | "תבנה לי CLAUDE.md" |
+| `explain-like-five` | סיכום בארבע שורות פשוטות: מה עשיתי / תקלה / תיקון / בעיה | "תסביר לי פשוט" |
+
 ## kitzur (קיצור)
 
 גרסה עברית של [Caveman](https://github.com/JuliusBrussee/caveman): תשובות קצרות וחדות, כל עובדה טכנית נשמרת, בלי "בשמחה!", סיכומים והסברים שלא ביקשת.
@@ -36,7 +43,7 @@ node install.js
 או כ-plugin:
 ```
 /plugin marketplace add autobizproil/harels-skills
-/plugin install kitzur@harels-skills
+/plugin install harels-skills@harels-skills
 ```
 
 דורש Node.js. הסרה: `node install.js --uninstall`.

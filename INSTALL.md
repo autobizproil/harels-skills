@@ -30,7 +30,7 @@
 בלי להריץ סקריפט: המשתמש מקליד בסשן את שתי הפקודות:
 ```
 /plugin marketplace add autobizproil/harels-skills
-/plugin install kitzur@harels-skills
+/plugin install harels-skills@harels-skills
 ```
 
 ## הסרה

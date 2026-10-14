@@ -8,8 +8,8 @@
   },
   "plugins": [
     {
-      "name": "kitzur",
-      "description": "מצב קצר בעברית (Caveman בעברית): פחות טוקנים, אותה דיוק.",
+      "name": "harels-skills",
+      "description": "קיצור בעברית, מגן git, בונה CLAUDE.md והסבר פשוט.",
       "source": "./",
       "category": "productivity"
     }

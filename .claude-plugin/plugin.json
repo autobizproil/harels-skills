@@ -1,7 +1,7 @@
 {
-  "name": "kitzur",
+  "name": "harels-skills",
   "version": "0.1.0",
-  "description": "מצב קצר בעברית: תשובות חדות, בלי קישוטים, כל עובדה טכנית נשמרת. מבוסס על Caveman (Apache-2.0).",
+  "description": "הסקילים של הראל ל-Claude Code: קיצור (מצב תשובות קצרות בעברית), מגן git, בונה CLAUDE.md בעברית והסבר פשוט.",
   "author": {
     "name": "Harel",
     "url": "https://github.com/autobizproil"
