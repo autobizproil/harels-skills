@@ -13,7 +13,6 @@
    ```bash
    git clone https://github.com/autobizproil/harels-skills.git ~/harels-skills
    ```
-   (החלף `autobizproil` בבעלים מהקישור שהמשתמש שלח.)
 3. תצוגה מקדימה, בלי שינוי:
    ```bash
    cd ~/harels-skills && node install.js --dry-run
