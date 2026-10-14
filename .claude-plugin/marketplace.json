@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "harels-skills",
+  "description": "הסקילים של הראל",
+  "owner": {
+    "name": "Harel",
+    "url": "https://github.com/autobizproil"
+  },
+  "plugins": [
+    {
+      "name": "kitzur",
+      "description": "מצב קצר בעברית (Caveman בעברית): פחות טוקנים, אותה דיוק.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}
