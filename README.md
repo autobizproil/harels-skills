@@ -43,7 +43,7 @@
 
 ידנית:
 ```bash
-git clone https://github.com/autobizproil/harels-skills.git
+git clone --branch v0.1.0 --depth 1 https://github.com/autobizproil/harels-skills.git
 cd harels-skills
 node install.js
 ```
