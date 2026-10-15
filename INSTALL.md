@@ -11,7 +11,7 @@
 1. ודא ש-Node.js מותקן: `node --version`. אם לא, עצור ותגיד למשתמש להתקין Node מ-nodejs.org.
 2. שכפל לתיקייה חדשה וריקה (לא לתוך פרויקט של המשתמש):
    ```bash
-   git clone --branch v0.1.0 --depth 1 https://github.com/autobizproil/harels-skills.git ~/harels-skills
+   git clone --branch v0.1.1 --depth 1 https://github.com/autobizproil/harels-skills.git ~/harels-skills
    ```
 3. תצוגה מקדימה, בלי שינוי:
    ```bash
@@ -43,4 +43,4 @@ cd ~/harels-skills && node install.js --uninstall
 
 שני המנגנונים יזריקו הוראות במקביל. מומלץ להסיר אחד מהם.
 
-**נעילת גרסה:** ההתקנה מושכת את התג `v0.1.0` ולא את `main`, כדי ששינויים עתידיים בריפו לא ירוצו אצל לקוחות בלי שבחרת בכך. לשדרוג: להחליף לתג חדש.
+**נעילת גרסה:** ההתקנה מושכת את התג `v0.1.1` ולא את `main`, כדי ששינויים עתידיים בריפו לא ירוצו אצל לקוחות בלי שבחרת בכך. לשדרוג: להחליף לתג חדש.

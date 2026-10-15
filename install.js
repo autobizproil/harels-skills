@@ -99,5 +99,19 @@ if (!args.has('--no-statusline')) {
   }
 }
 
+// ברירת מחדל ללקוחות: מצב קצר מופעל רק כשמבקשים ("מצב קצר" או /kitzur). --always-on להפעלה בכל סשן.
+// לא דורסים קובץ הגדרות קיים של המשתמש.
+const userCfg = path.join(os.homedir(), '.config', 'kitzur', 'config.json');
+if (fs.existsSync(userCfg)) {
+  log('נמצא ' + userCfg + ', לא משנה את ברירת המחדל.');
+} else {
+  const mode = args.has('--always-on') ? 'kitzur' : 'manual';
+  log('קובע ברירת מחדל: ' + mode + (mode === 'manual' ? ' (מופעל רק כשמבקשים)' : ' (פעיל בכל סשן)'));
+  if (!dry) {
+    fs.mkdirSync(path.dirname(userCfg), { recursive: true });
+    fs.writeFileSync(userCfg, JSON.stringify({ defaultMode: mode }, null, 2) + '\n');
+  }
+}
+
 writeSettings(settings);
 log('הותקן. פתח סשן חדש של Claude Code. בדיקה: כתוב "מצב קצר".');
