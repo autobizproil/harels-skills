@@ -119,7 +119,13 @@ def unzip_takeout(zips, dest):
                 ext = Path(info.filename).suffix.lower()
                 if info.is_dir() or (ext not in IMAGE_EXT and ext != ".json"):
                     continue
-                target = dest / z.stem / info.filename
+                # harels-skills: תיקון Zip Slip. שם קובץ עם ".." או נתיב מוחלט לא יכול לצאת מתיקיית הייעד
+                base = (dest / z.stem).resolve()
+                target = (base / info.filename).resolve()
+                try:  # relative_to ולא is_relative_to, כדי לעבוד גם על Python 3.8
+                    target.relative_to(base)
+                except ValueError:
+                    continue
                 if not target.exists():
                     target.parent.mkdir(parents=True, exist_ok=True)
                     with zf.open(info) as src, open(target, "wb") as out:

@@ -12,7 +12,7 @@
 | `hebrew-writing-style` | כתיבה בעברית טבעית: מסיר ניסוחים "מתורגמים" וקלישאות של AI (ניסוח מקורי) | "זה נשמע כמו AI", "תנסח מחדש" |
 | `rtl-ui` | כללים לבניית ממשקים בעברית מימין לשמאל: כיוון, מספרים, פונטים, טפסים (ניסוח מקורי) | בכל מסך בעברית |
 | `council-he` | מועצת חמישה יועצים להחלטות קשות, עם ביקורת עמיתים והכרעה (ניסוח מקורי) | "תריץ מועצה", "אני מתלבט" |
-| `gallery-sorter` | מסדר את תמונות הטלפון לאלבומים לפי נושא, מוצא כפולות ומטושטשות, בלי למחוק. **של Eden Bibas / Brain**, MIT, ללא שינוי. דורש Python ומפתח Gemini או OpenAI | "תסדר לי את הגלריה" |
+| `gallery-sorter` | מסדר את תמונות הטלפון לאלבומים לפי נושא, מוצא כפולות ומטושטשות, בלי למחוק. **של Eden Bibas / Brain**, MIT, עם תיקון אבטחה אחד (Zip Slip ב-`gather.py`). דורש Python ומפתח Gemini או OpenAI | "תסדר לי את הגלריה" |
 | `make-blueprint-he` | עריכת blueprints של Make בבטחה: שתי גרסאות, בדיקת פילטרים ומזהים (מקורי) | "blueprint", "פילטר", "וובהוק" |
 | `ponytail-he` | מפתח בכיר עצלן: השינוי הקטן ביותר שפותר את הבעיה (עיבוד של ponytail) | "ponytail", "אל תסבך" |
 | `verify-before-done` | אסור להגיד "זה עובד" בלי להריץ ולראות הוכחה (עיבוד של superpowers) | "תוודא", לפני commit |
@@ -48,7 +48,7 @@
 
 ידנית:
 ```bash
-git clone --branch v0.3.0 --depth 1 https://github.com/autobizproil/harels-skills.git
+git clone --branch v0.3.1 --depth 1 https://github.com/autobizproil/harels-skills.git
 cd harels-skills
 node install.js
 ```
