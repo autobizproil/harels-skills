@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "harels-skills",
-      "description": "קיצור בעברית, מגן git, בונה CLAUDE.md והסבר פשוט.",
+      "description": "28 סקילים בעברית ל-Claude Code: קיצור, כתיבה, קוד, בטיחות ועוד.",
       "source": "./",
       "category": "productivity"
     }

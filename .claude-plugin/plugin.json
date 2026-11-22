@@ -1,7 +1,7 @@
 {
   "name": "harels-skills",
-  "version": "0.1.0",
-  "description": "הסקילים של הראל ל-Claude Code: קיצור (מצב תשובות קצרות בעברית), מגן git, בונה CLAUDE.md בעברית והסבר פשוט.",
+  "version": "0.5.1",
+  "description": "28 סקילים בעברית ל-Claude Code: קיצור, כתיבה, קוד, בטיחות ועוד.",
   "author": {
     "name": "Harel",
     "url": "https://github.com/autobizproil"
